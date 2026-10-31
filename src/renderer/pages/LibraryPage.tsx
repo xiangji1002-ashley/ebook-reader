@@ -30,15 +30,15 @@ export function LibraryPage({ books, loading, error, onOpen, onRefresh, onError,
   return (
     <div className="app-shell">
       <header className="topbar library-topbar">
-        <div className="brand"><span className="brand-mark">E</span><span>页间</span></div>
+        <div className="brand"><span className="brand-mark">E</span><span>纸间</span></div>
         <button className="primary-button" onClick={() => void importBook()} disabled={importing}>
-          <span aria-hidden="true">＋</span>{importing ? '正在导入…' : '导入电子书'}
+          <span aria-hidden="true">＋</span>{importing ? '正在导入…' : '导入图书'}
         </button>
       </header>
 
       <main className="library-main">
         <div className="library-heading">
-          <div><p className="eyebrow">你的私人书架</p><h1>继续阅读</h1></div>
+          <div><p className="eyebrow">书架</p><h1>继续阅读</h1></div>
           {books.length > 0 && <span className="book-count">{books.length} 本藏书</span>}
         </div>
 

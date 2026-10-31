@@ -2,21 +2,21 @@
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 320px; min-height: 100vh; }
 button { font: inherit; }
-button:focus-visible { outline: 3px solid rgba(152, 77, 38, .35); outline-offset: 3px; }
-.app-shell { min-height: 100vh; background: radial-gradient(circle at 76% 6%, rgba(214, 178, 126, .16), transparent 24rem), #f4f0e8; }
+button:focus-visible { outline: 3px solid rgba(62, 134, 189, 0.59); outline-offset: 3px; }
+.app-shell { min-height: 100vh; background: radial-gradient(circle at 76% 6%, rgba(103, 176, 240, 0.656), transparent 24rem), #f4f0e8; }
 .topbar { height: 82px; display: flex; align-items: center; justify-content: space-between; padding: 0 clamp(28px, 5vw, 72px); border-bottom: 1px solid rgba(54, 46, 35, .1); }
 .library-topbar { -webkit-app-region: drag; }
 .library-topbar button { -webkit-app-region: no-drag; }
 .brand { display: flex; align-items: center; gap: 11px; font-family: "Noto Serif SC", Georgia, serif; font-size: 20px; font-weight: 700; letter-spacing: .08em; }
-.brand-mark { display: grid; place-items: center; width: 31px; height: 35px; color: #f8f4eb; background: #9a4f2d; border-radius: 3px 7px 7px 3px; font: 700 18px Georgia, serif; box-shadow: -3px 0 0 #6e3821; }
+.brand-mark { display: grid; place-items: center; width: 31px; height: 35px; color: #f8f4eb; background: #197bdd; border-radius: 3px 7px 7px 3px; font: 700 18px Georgia, serif; box-shadow: -3px 0 0 #1e70c2; }
 .primary-button, .secondary-button, .ghost-button, .danger-button { border: 0; border-radius: 6px; cursor: pointer; font-weight: 600; transition: transform .18s ease, background .18s ease, opacity .18s ease; }
-.primary-button { padding: 12px 18px; color: #fffaf2; background: #8e4829; box-shadow: 0 7px 18px rgba(97, 48, 25, .18); }
+.primary-button { padding: 12px 18px; color: #fffaf2; background: #223bde; box-shadow: 0 7px 18px rgba(97, 48, 25, .18); }
 .primary-button span { font-size: 18px; margin-right: 7px; }
 .primary-button:hover, .secondary-button:hover, .danger-button:hover { transform: translateY(-1px); }
 button:disabled { opacity: .55; cursor: wait; }
 .library-main { max-width: 1240px; margin: 0 auto; padding: 64px clamp(28px, 6vw, 82px) 80px; }
 .library-heading { display: flex; align-items: end; justify-content: space-between; margin-bottom: 35px; }
-.eyebrow { margin: 0 0 9px; color: #9a4f2d; font-size: 11px; font-weight: 700; letter-spacing: .19em; text-transform: uppercase; }
+.eyebrow { margin: 0 0 9px; color: #9a4f2d; font-size: 16px; font-weight: 700; letter-spacing: .19em; text-transform: uppercase; }
 h1, h2 { font-family: "Noto Serif SC", Georgia, serif; }
 h1 { margin: 0; font-size: clamp(31px, 4vw, 44px); line-height: 1.15; letter-spacing: -.04em; }
 .book-count { padding-bottom: 5px; color: #81786b; font-size: 13px; }
